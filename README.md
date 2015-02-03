@@ -19,3 +19,9 @@ $ sudo pip install beautifulsoup4
 
 ##### Caveats
 * The ```keyboard.send_key()``` function is called prior to printing the string via ```keyboard.send_keys()```.  Meaning that if the script is used at the top of a text box both the text and link will reside on the same line.  This will be fixed in a future release.
+
+##### Future Releases
+Here's a few ideas I'm working on for the future:
+
+* Add error handling that alerts the user that no header was found via lib-notify (pynotify)
+
