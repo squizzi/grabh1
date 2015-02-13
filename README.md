@@ -25,3 +25,4 @@ $ sudo yum -y install python-pip
 Here's a few ideas I'm working on for the future:
 
 * Add error handling that alerts the user that no header was found via lib-notify (pynotify)
+* Add error handling for http errors such as 403, 404, etc.
