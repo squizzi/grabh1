@@ -21,11 +21,12 @@ File -> New -> Script
 
 ### Usage 
 
-* Select some text that begins with http:// or https:// and press the assigned 
+Select some text that begins with `http://` or `https://` and press the assigned 
 hotkey(s)
 
 ---
-* **Note**: If using gnome3, the script will send any errors encountered to 
+##### Note: 
+* If using gnome3, the script will send any errors encountered to 
 the `notify-send` utility, meaning you should receive a notification from 
 the script with the error.
 * If you are unable to determine what has occurred, run the script with 
