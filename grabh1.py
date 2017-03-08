@@ -65,12 +65,5 @@ keyboard.send_keys(title)
 keyboard.send_key('<enter>')
 keyboard.send_keys(text)
 keyboard.send_key('<enter>')
-# 1 space indention (optional, comment out if not desired)
-# We need to wait a moment for the string to get pulled from url before
-# manipulating text
-sleep(1.5)
-keyboard.send_keys('<up><up><home> <up><home> ')
-# Return to new line
-keyboard.send_keys('<down><down>')
 # exit
 exit(0)
